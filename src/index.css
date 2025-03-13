@@ -1,0 +1,25 @@
+@font-face {
+  font-family: Roman;
+  src: url('/fonts/NeueHaasDisplayRoman.ttf');
+}
+
+@import "tailwindcss";
+
+@theme {
+  --font-roman: Roman, "sans-serif"; 
+}
+
+body{
+  @apply bg-[#F4F4F4] font-roman 
+}
+.profile_detail{
+  @apply flex justify-between p-1;
+  > :first-child {
+    @apply text-[14px] text-[#333333]
+  }
+  > :nth-child(2){
+    @apply text-[16px] text-[#0154AA]
+  }
+}
+
+
