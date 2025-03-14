@@ -142,6 +142,7 @@ const HeroSection = () => {
             ))}
           </div>
         </div>
+        <hr className="h-px border-0 bg-[#E9ECEF] my-2" />
 
         {/* Featured Jobs Section */}
         <div className="flex flex-col gap-[15px]">
@@ -161,6 +162,7 @@ const HeroSection = () => {
               ))}
           </div>
         </div>
+        <hr className="h-px border-0 bg-[#E9ECEF] my-2" />
 
         {/* Recommended Jobs Section */}
         <div className="flex flex-col gap-[15px]">
