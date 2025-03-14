@@ -1,0 +1,95 @@
+{
+    "jobs":[
+        {
+            "title":"UI/UX Designer",
+            "company": "Teams",
+            "applicants" : 22,
+            "location": "Seattle, USA (Remote)",
+            "tag": "Promoted", 
+            "logo": "teams.png",       
+            "created_at": "2025-03-12T12:00:00Z"
+        },
+        {
+            "title":"UI/UX Designer",
+            "company": "Teams",
+            "applicants" : 22,
+            "location": "Seattle, USA (Remote)",
+            "tag": "Promoted", 
+            "logo": "teams.png",  
+            "created_at": "2025-03-12T12:00:00Z"
+        },
+        {
+            "title":"UI/UX Designer",
+            "company": "Teams",
+            "applicants" : 22,
+            "location": "Seattle, USA (Remote)",
+            "tag": "Promoted", 
+            "logo": "teams.png",  
+            "created_at": "2025-03-12T12:00:00Z"
+        },
+        {
+            "title":"UI/UX Designer",
+            "company": "Teams",
+            "applicants" : 22,
+            "location": "Seattle, USA (Remote)",
+            "tag": "Promoted", 
+            "logo": "teams.png",  
+            "created_at": "2025-03-12T12:00:00Z"
+        },
+        {
+            "title":"UI/UX Designer",
+            "company": "Teams",
+            "applicants" : 22,
+            "location": "Seattle, USA (Remote)",
+            "tag": "Promoted", 
+            "logo": "teams.png",  
+            "created_at": "2025-03-12T12:00:00Z"
+        },
+        {
+            "title":"UI/UX Designer",
+            "company": "Teams",
+            "applicants" : 22,
+            "location": "Seattle, USA (Remote)",
+            "tag": "", 
+            "logo": "teams.png",  
+            "created_at": "2025-03-12T12:00:00Z"
+        },
+        {
+            "title":"UI/UX Designer",
+            "company": "Teams",
+            "applicants" : 22,
+            "location": "Seattle, USA (Remote)",
+            "tag": "", 
+            "logo": "teams.png",  
+            "created_at": "2025-03-12T12:00:00Z"
+        },
+        {
+            "title":"UI/UX Designer",
+            "company": "Teams",
+            "applicants" : 22,
+            "location": "Seattle, USA (Remote)",
+            "tag": "", 
+            "logo": "teams.png",  
+            "created_at": "2025-03-12T12:00:00Z"
+        },
+        {
+            "title":"UI/UX Designer",
+            "company": "Teams",
+            "applicants" : 22,
+            "location": "Seattle, USA (Remote)",
+            "tag": "", 
+            "logo": "teams.png",  
+            "created_at": "2025-03-12T12:00:00Z"
+        },
+        {
+            "title":"UI/UX Designer",
+            "company": "Teams",
+            "applicants" : 22,
+            "location": "Seattle, USA (Remote)",
+            "tag": "", 
+            "logo": "teams.png",  
+            "created_at": "2025-03-12T12:00:00Z"
+        }
+        
+    ]
+}
