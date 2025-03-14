@@ -1,6 +1,5 @@
 import React from "react";
 import { Bookmark, MapPin, Clock } from "lucide-react";
-import Button from "./Button";
 
 const JobCard = ({ job }) => {
   const { title, company, tag, logo, applicants, location, created_at } = job;
@@ -34,27 +33,24 @@ const JobCard = ({ job }) => {
             <MapPin className="text-[#333333] w-[12px] h-[14px] " />
             <p className="text-[12px] text-[#585D6E]">{location}</p>
           </div>
-          <div className="flex items-center gap-1">
-            <Clock className="text-[#333333] w-[12px] h-[14px] " />
-            <p className="text-[12px] text-[#585D6E]">
+          <div className="flex items-center gap-1 flex-nowrap">
+            <Clock className="text-[#333333] w-[12px] h-[14px]" />
+            <p className="text-[12px] text-[#585D6E] whitespace-nowrap">
               {daysAgoFunction(created_at) === 0
                 ? "Today"
                 : `${daysAgoFunction(created_at)} days ago`}
-
               <span> | </span>
-
               <span className="text-[12px] text-[#0154AA]">
                 {applicants} applicants
               </span>
             </p>
           </div>
         </div>
-        <div className="flex items-center gap-5 sm:justify-between">
-          {/* <Button text={'Apply Now'} className="w-[115px] h-[34px]"/> */}
-          <button className="w-[200px] sm:w-[115px] h-[34px] bg-[#0154AA] text-white rounded-[8px] font-roman cursor-pointer text-[12px]">
+        <div className="flex items-center gap-2 sm:w-full">
+          <button className="flex-grow sm:w-[80%] h-[34px] bg-[#0154AA] text-white rounded-[8px] font-roman cursor-pointer text-[12px]">
             Apply Now
           </button>
-          <Bookmark className="text-[#AAAAAA] " size={23} />
+          <Bookmark className="text-[#AAAAAA] sm:w-[20%]" size={23} />
         </div>
       </div>
     </div>

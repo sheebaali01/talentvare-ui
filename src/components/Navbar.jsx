@@ -23,7 +23,7 @@ const Navbar = () => {
     <nav className="flex items-center justify-between bg-white h-[70px] px-4 md:px-8 relative z-50">
       {/* Logo */}
       <div>
-        <img src={logo} alt="Logo" className="w-[41px] h-[38px]" />
+        <img src={logo} alt="Logo" className="w-[41px] h-[38px]" loading="lazy"/>
       </div>
 
       {/* Desktop Navigation */}

@@ -1,13 +1,11 @@
 import React from "react";
-import bgImage from "../assets/bg.png";
-import profileImg from "../assets/image.png";
-import arrowDownIcon from "../assets/icons/arrow-down.png";
 import TabButton from "./TabButton";
 import JobCard from "./JobCard";
 import data from "../data.json";
-import Button from "./Button";
-import searchIcon from "../assets/icons/search-white.svg";
 import { ChevronDown } from 'lucide-react';
+import searchIcon from "../assets/icons/search-white.svg";
+import bgImage from "../assets/bg.png";
+import profileImg from "../assets/image.png";
 
 const HeroSection = () => {
   const jobs = data.jobs;
